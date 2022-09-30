@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700&family=Montserrat&family=Outfit:wght@100;200;400&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700&family=Montserrat&family=Outfit:wght@100;200;400&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
 .attribution {
     /* position: relative; */
     font-size: 11px;
@@ -14,6 +14,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Overpass', sans-serif;
+    ;
 }
 
 body{
@@ -23,7 +25,7 @@ body{
   /* flex-direction: column; */
   /* max-width: 1000px; */
   height: 100vh;
-  font-family: 'Fraunces', serif;
+  /* font-family: 'Fraunces', serif; */
 }
 
 .container{
@@ -50,7 +52,7 @@ body{
 
 }
 
-img{
+.star img{
   /* height: auto; */
   max-width: 20px;
   /* width: 20px; */
@@ -78,6 +80,15 @@ p{
   margin: 8px;
 }
 
+button:hover{
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+}
+button:focus{
+  background-color: hsl(217, 12%, 63%);
+  color: #fff;
+}
+
 .submit{
   width: 100%;
   font-size: 12px;
@@ -87,4 +98,31 @@ p{
   border: none;
   border-radius: 20px;
   letter-spacing: 2px;
+}
+
+.submit:hover{
+  background-color: #fff;
+  color: hsl(26,97%,53%);
+}
+
+.submitted {
+  text-align: center;
+  padding: 20px 15px;
+
+}
+.submitted img{
+  max-width: 100px;
+}
+.submitted .rated{
+  background-color:  hsl(209,26%,17%);
+  color: rgb(230, 140, 71);
+  font-size: 10px;
+  padding: 5px;
+  margin: 15px auto;
+  width: 130px;
+  border-radius: 50px;
+}
+
+.title{
+  padding-bottom: 10px;
 }
