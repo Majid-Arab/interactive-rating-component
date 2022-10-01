@@ -108,6 +108,7 @@ button:focus{
 .submitted {
   text-align: center;
   padding: 20px 15px;
+  display: none;
 
 }
 .submitted img{
