@@ -1,34 +1,26 @@
-let submit = document.getElementById("submitBtn");
-submit.addEventListener('click', function(e){
-	let submit = document.getElementById("submit");
-    submit.style.display = "none"
-	let submited = document.getElementById("submitted");
-    submited.style.display = "block"
+const lis = document.querySelectorAll("li"); //select all values
 
-});
-
-// let btn = getElementsByTagName("li").value
-// btn.addEventListener('onChange', function(e) {
-//     console.log("SMTH" + e)
-// } )
-
-// function list(e) {
-//     console.log(e.value + "THis")
-// }
-
-
-
-const lis = document.querySelectorAll("li"); // selecting all the li's
-const span = document.querySelectorAll("span"); // selecting all the li's
-
-function liValues(e){
-  const target = e.target.innerHTML;
-  console.log(target)
-//   document.write("My"); // or innerHTML or whatever works
-
-  console.log(span)
-}  
+// get the li tag innerHTML
+function liValues(e) {
+  target = e.target.innerHTML;
+  console.log(target);
+}
 
 lis.forEach((el) => {
-el.addEventListener("click", liValues); // loops through all the li's and bind the function to them
+  el.addEventListener("click", liValues);
+});
+
+let submit = document.getElementById("submitBtn");
+const span = (document.querySelectorAll("span").innerHTML = lis.innerHTML);
+
+submit.addEventListener("click", function (e) {
+  let submit = document.getElementById("submit");
+  submit.style.display = "none";
+
+  let submited = document.getElementById("submitted");
+  submited.style.display = "block";
+
+  span.innerHTML = target;
+  console.log(span);
+  return span;
 });
