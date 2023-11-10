@@ -46,7 +46,12 @@ lis.forEach((el) => {
 });
 
 let submit = document.getElementById("submitBtn");
+let btn = document.getElementsByClassName("btn");
 const span = (document.getElementsByTagName("span").innerHTML = lis.innerHTML);
+
+btn.addEventListener("click", function () {
+  btn.style.backgroundColor = "hsl(25, 97%, 53%)";
+});
 
 submit.addEventListener("click", function (e) {
   let submit = document.getElementById("submit");
