@@ -1,21 +1,20 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700&family=Montserrat&family=Outfit:wght@100;200;400&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
 .attribution {
-    /* position: relative; */
-    font-size: 11px;
-    text-align: center;
-    /* bottom: 10px; */
-  }
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
+  /* position: relative; */
+  font-size: 11px;
+  text-align: center;
+  /* bottom: 10px; */
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Overpass', sans-serif;
-    ;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Overpass", sans-serif;
 }
 
 body {
@@ -23,11 +22,10 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  /* counter-reset: numbers; */
 }
 
 .container {
-  width: 300px;
+width: 300px;
   height: 300px;
   border-radius: 20px;
   background-color: hsl(209°, 33%, 27%);
@@ -63,29 +61,6 @@ p {
   font-size: 12px;
 }
 
-/* ul{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 0px;
-}
-
-ul li{
-  width: 30px;
-  aspect-ratio:1;
-  /* padding: 10px; */
-  /* place-items:center; */
-  /* border-radius: 50%;
-  font-size: 12px;
-  background-color: #2c3a47;
-  color: rgb(138, 141, 148);
-  margin: 8px;
-  list-style-type: none;
-  color:#FFF;
-  display: grid;
-  place-items:center;
-/* } */ 
-
 ul {
   display: flex;
   justify-content: space-between;
@@ -103,21 +78,6 @@ ul li {
   display: grid;
   place-items: center;
 }
-/* 
-ul li::before {
-  counter-increment: numbers;
-  content:counter(numbers);
-} */
-
-/* li:hover {
-  background-color: hsl(25, 97%, 53%);
-  color: #fff;
-}
-
-li{
-  background-color: hsl(217, 12%, 63%);
-  color: #fff;
-}*/
 
 .submit {
   width: 100%;
@@ -155,19 +115,4 @@ li{
 
 .title {
   padding-bottom: 10px;
-}
-.btn {
-  width: 30px;
-  aspect-ratio: 1;
-  border-radius: 50%;
-  font-size: 12px;
-  background-color: hsl(209 23% 23%);
-  color: hsl(222 4% 56%);
-  list-style-type: none;
-  display: grid;
-  place-items: center;
-}
-.btn:hover {
-  background-color: hsl(25, 97%, 53%);
-  color: #fff;
 }
