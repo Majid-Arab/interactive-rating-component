@@ -25,22 +25,22 @@ body {
 }
 
 .container {
-width: 300px;
-  height: 300px;
-  border-radius: 20px;
+  width: 350px;
+  height: 350px;
+  border-radius: 25px;
   background-color: hsl(209°, 33%, 27%);
   background-image: linear-gradient(180deg, #2f475d 0%, #202731 100%);
   display: grid;
   place-items: start;
   padding: 25px;
-  color: 	hsl(222°, 4%, 56%);
+  color: hsl(222°, 4%, 56%);
 }
 
 .star {
   position: relative;
   height: 40px;
   width: 40px;
-  background-color: #262F38;
+  background-color: #262f38;
   text-align: center;
   border-radius: 50%;
   display: grid;
@@ -50,25 +50,32 @@ width: 300px;
 
 .star img {
   position: absolute;
-  max-width: 20px;
+  max-width: 15px;
 }
 
 h3 {
+  font-size: 25px;
+  font-weight: 550;
   color: hsl(210, 9%, 87%);
 }
 
 p {
-  font-size: 12px;
+  padding-top: 10px;
+  color: gray;
+  font-size: 14px;
 }
 
 ul {
   display: flex;
   justify-content: space-between;
-  padding: 10px 0px;
+  align-items: center;
+  gap: 20px;
+  /* padding: 10px 0px; */
 }
 
 ul li {
-  width: 30px;
+  width: 40px;
+  height: 40px;
   aspect-ratio: 1;
   border-radius: 50%;
   font-size: 12px;
@@ -84,15 +91,15 @@ ul li {
   font-size: 12px;
   padding: 10px;
   color: #fff;
-  background-color: hsl(26,97%,53%);
+  background-color: hsl(26, 97%, 53%);
   border: none;
   border-radius: 20px;
   letter-spacing: 2px;
 }
 
-.submit:hover{
+.submit:hover {
   background-color: #fff;
-  color: hsl(26,97%,53%);
+  color: hsl(26, 97%, 53%);
 }
 
 .submitted {
@@ -103,8 +110,8 @@ ul li {
 .submitted img {
   max-width: 100px;
 }
-.submitted .rated{
-  background-color:  hsl(209,26%,17%);
+.submitted .rated {
+  background-color: hsl(209, 26%, 17%);
   color: rgb(230, 140, 71);
   font-size: 10px;
   padding: 5px;
