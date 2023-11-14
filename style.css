@@ -85,6 +85,10 @@ ul li {
   place-items: center;
 }
 
+li.gray {
+  background-color: #f0f0f0; /* Gray background color */
+}
+
 .list:hover {
   background-color: hsl(26, 97%, 53%);
   color: #fff;
