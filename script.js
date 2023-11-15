@@ -1,12 +1,22 @@
-let listItems = document.querySelectorAll('.list');
+let listItems = document.querySelectorAll(".list");
 
-  // Add click event listener to each li element
-  listItems.forEach(function(item) {
-    item.addEventListener('click', function() {
-      // Change the background color to gray
-      item.classList.add('gray');
+listItems.forEach(function (item) {
+  item.addEventListener("click", function () {
+    item.classList.add("gray");
 
-      // Log the value to the console
-      console.log(item.getAttribute('value'));
-    });
+    console.log(item.getAttribute("value"));
   });
+});
+
+let submitBtn = document.getElementById("submitBtn");
+let submit = document.getElementById("submit");
+let submitted = document.getElementById("submitted");
+
+submitBtn.addEventListener("click", function (e) {
+  let none = (submit.style.display = "none");
+  let block = (submitted.style.display = "block");
+
+  block;
+  console.log(block);
+  console.log("submitted");
+});
