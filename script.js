@@ -2,7 +2,7 @@ let listItems = document.querySelectorAll(".list");
 
 listItems.forEach(function (item) {
   item.addEventListener("click", function () {
-    item.classList.add("gray");
+    item.classList.toggle("gray");
 
     console.log(item.getAttribute("value"));
   });
