@@ -2,6 +2,11 @@ let listItems = document.querySelectorAll(".list");
 
 listItems.forEach(function (item) {
   item.addEventListener("click", function () {
+    listItems.forEach(function (otherItem) {
+      if (otherItem !== item) {
+        otherItem.classList.remove("gray");
+      }
+    });
     item.classList.toggle("gray");
 
     console.log(item.getAttribute("value"));
