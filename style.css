@@ -112,22 +112,24 @@ li.gray {
 
 .submitted {
   text-align: center;
-  padding: 20px 15px;
+  /* padding: 20px 15px; */
   display: none;
 }
 .submitted img {
-  max-width: 100px;
+  max-width: 300px;
 }
-.submitted .rated {
-  background-color: hsl(209, 26%, 17%);
+.submitted .rated { 
+  background-color: hsl(209, 25%, 21%);
   color: rgb(230, 140, 71);
-  font-size: 10px;
+  /* font-size: 20px; */
   padding: 5px;
   margin: 15px auto;
-  width: 130px;
+  width: 200px;
   border-radius: 50px;
 }
 
 .title {
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
+  color: #fff;
+  font-size: 30px;
 }
