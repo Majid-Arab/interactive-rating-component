@@ -22,10 +22,6 @@ let submit = document.getElementById("submit");
 let submitted = document.getElementById("submitted");
 
 submitBtn.addEventListener("click", function (e) {
-  let none = (submit.style.display = "none");
-  let block = (submitted.style.display = "block");
-
-  block;
-  console.log(block);
-  console.log("submitted");
+  submit.style.display = "none";
+  let block = (submitted.style.display = "flex", submitted.style.alignItems = "center", submitted.style.gap = "15px")
 });

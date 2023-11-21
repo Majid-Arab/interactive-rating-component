@@ -114,12 +114,13 @@ li.gray {
   text-align: center;
   /* padding: 20px 15px; */
   display: none;
+  
 }
 .submitted img {
-  max-width: 300px;
+  width: 200px;
 }
 .submitted .rated { 
-  background-color: hsl(209, 25%, 21%);
+  background-color: hsl(210, 16%, 29%);
   color: rgb(230, 140, 71);
   /* font-size: 20px; */
   padding: 5px;
