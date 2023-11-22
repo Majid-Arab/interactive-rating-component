@@ -95,7 +95,7 @@ li.gray {
 }
 
 .submit {
-  width: 100%;
+  /* width: 100%; */
   font-size: 14px;
   padding: 14px;
   color: #fff;
@@ -112,7 +112,7 @@ li.gray {
 
 .submitted {
   text-align: center;
-  /* padding: 20px 15px; */
+  padding: 30px;
   display: none;
   
 }
@@ -123,9 +123,9 @@ li.gray {
   background-color: hsl(210, 16%, 29%);
   color: rgb(230, 140, 71);
   /* font-size: 20px; */
-  padding: 5px;
+  padding: 5px 20px;
   margin: 15px auto;
-  width: 200px;
+  /* width: 200px; */
   border-radius: 50px;
 }
 
